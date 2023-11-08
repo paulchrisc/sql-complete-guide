@@ -7,7 +7,7 @@
       "askForPassword": true,
       "driver": "PostgreSQL",
       "name": "postgres1",
-      "database": "online_shop",
+      "database": "salesdb",
       "username": "postgres"
     },
     {
@@ -20,7 +20,7 @@
       "port": 3306,
       "driver": "MySQL",
       "name": "mysql1",
-      "database": "online_shop",
+      "database": "salesdb",
       "username": "root",
       "askForPassword": true
     }
