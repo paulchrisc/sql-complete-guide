@@ -1,3 +1,9 @@
+-- SELECT * FROM sales
+-- WHERE volume > 1000;
+
+-- SELECT * FROM sales
+-- WHERE is_recurring IS TRUE
+-- ORDER BY id ASC;
+
 SELECT * FROM sales
-WHERE customer_name contains 'Max Schwarz'
-;
+WHERE (is_disputed IS TRUE) AND (volume > 4000);
